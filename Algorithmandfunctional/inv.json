@@ -1,0 +1,33 @@
+{
+  "RICE": 
+
+		[
+		{"name" : "Basmati",   "weight": 55 , "price" : 45}, 
+		{"name" : "Carnaroli", "weight": 90 , "price" : 48} ,
+		{"name" : "Arborio",   "weight": 87 , "price" : 78}
+		] 
+   
+
+,
+
+
+  "PULSES": 
+
+		[
+		{"name" : "Green Gram",   "weight": 65 , "price" : 63},
+		{"name" : "Red Gram", "weight": 45 , "price" : 98},
+		{"name" : "Kidney Beans",   "weight": 75 , "price" : 75}
+		] 
+   
+,
+
+
+  "WHEATS": 
+
+		[
+		{"name" : "Spelt",   "weight": 67 , "price" : 45},
+		{"name" : "Emmer", "weight": 51 , "price" : 27},
+		{"name" : "Einkorn",   "weight": 41 , "price" : 63}
+		] 
+   
+}

@@ -1,0 +1,52 @@
+1)Variable of larger capacity is be assigned to another variable of smaller capacity:
+	double d = 30;
+	int i;
+	i = (int)d; //type casting
+ 
+
+Java Variables and Data Types
+
+In such cases, you have to explicitly specify the type cast operator. This process is known as Type Casting.
+
+
+2)OBJECT:
+
+		ClassName ReferenceVariable = new ClassName();
+
+3)Array Variables:
+
+
+Using an array in your program is a 3 step process -
+
+1) Declaring your Array:
+
+			<elementType>[] <arrayName>;
+
+2) Constructing your Array:
+
+			 arrayname = new dataType[]
+			intArray = new int[10]; // Defines that intArray will store 10 integer values
+
+
+
+3) Initialize your Array:
+
+			intArray[0] = 1; // Assigns an integer value 1 to the first element 0 of the array
+			
+
+4) Convert String to Integer using Integer.parseInt():
+
+
+		int <IntVariableName> = Integer.parseInt(<StringVariableName>);
+string must contains integers.
+
+
+5)There are two ways to convert String to Integer in Java,
+
+*String to Integer using Integer.parseInt()
+		int <IntVariableName> = Integer.parseInt(<StringVariableName>);
+		int iTest = Integer.parseInt(strTest);
+*String to Integer using Integer.valueOf()
+		
+		 int iTest = Integer.valueOf(strTest);
+
